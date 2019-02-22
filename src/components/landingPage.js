@@ -11,11 +11,9 @@ class Landing extends Component {
       divArray[i].style.animation = "spin 20s linear infinite"
     }
     let inter = setInterval(()=>{
-      // window.open("https://linkedin.com/in/blake-bollman")
       window.location.href = "/About"
       clearInterval(inter)
-    },7000)
-    // window.open("https://github.com/blucky36")
+    },5000)
   }
 
   render(){

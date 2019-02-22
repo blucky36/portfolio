@@ -29,6 +29,9 @@ class Navbar extends Component {
               <li className="nav-item">
                 <a className="nav-link" href="https://www.linkedin.com/in/blake-bollman">LinkedIn</a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="mailto:blucky36@gmail.com">Contact Me</a>
+              </li>
             </ul>
             <select className="dropMenu btn btn-secondary" onChange = {(e)=>{this.handleChange(e)}}>
               <option className = "opt" value = "oi">
