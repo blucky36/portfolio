@@ -44,7 +44,7 @@ class AboutPage extends Component {
       },
       {
         header: "End Goal",
-        title: "I strive to one day build my own golf course",
+        title: "I aim to one day build my own golf course",
         text: "Golf has been a hobby of mine my entire life",
         color: "info",
         textColor: "white"
@@ -69,6 +69,10 @@ class AboutPage extends Component {
       upper:"Learn a bit about me and my hobbies",
       lower:"I am a Galvanize grad who has strong passions for coding, and golf. Demonstrated a history of working with teams in an agile environment. I am skilled at working in Javascript, HTML5, CSS, and with Communication, Time Management, and Teamwork."
     }
+  }
+
+  componentDidMount(){
+    if(this.props.firstLoad) window.location.href = "/"
   }
 
   render(){

@@ -21,8 +21,11 @@ class App extends Component {
       <div className="App">
         <Navbar/>
         <Switch>
-          <Route exact path = "/" render={()=><Redirect to = "/home"/>}/>
-          <Route exact path = "/home" render={()=><Landing/>}/>
+          <Route exact path = "/" render={()=>{
+            this.changeFirstLoad()
+            return <Redirect to = "/home"/>
+          }}/>
+          <Route exact path = "/home" render={()=><Landing firstLoad={this.state.firstLoad} changeFirstLoad={this.changeFirstLoad.bind(this)}/>}/>
           <Route exact path = "/about" render={()=><AboutPage firstLoad={this.state.firstLoad} changeFirstLoad={this.changeFirstLoad.bind(this)} />}/>
         </Switch>
         <Footer/>

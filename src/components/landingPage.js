@@ -5,6 +5,10 @@ AOS.init()
 
 class Landing extends Component {
 
+  componentDidMount(){
+    if(this.props.firstLoad) window.location.href = "/"
+  }
+
   handleClick(){
     let divArray = document.getElementsByTagName("div")
     for(let i = 0; i < divArray.length; i++){
