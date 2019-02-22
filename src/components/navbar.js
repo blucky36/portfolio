@@ -1,6 +1,9 @@
 import React, {Component} from "react"
 import {Link} from "react-router-dom"
 import AnimeBox from "./animeBox.js"
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+AOS.init()
 
 class Navbar extends Component {
   handleChange(e){
@@ -10,7 +13,7 @@ class Navbar extends Component {
   render(){
     return (
       <>
-        <nav className="navbar navbar-expand-md navbar-dark bg-dark bnav">
+        <nav className="navbar navbar-expand-md navbar-dark bg-dark bnav" data-aos="zoom-in">
           <Link to = "/" className="navbar-brand" >Blake Bollman</Link>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span>More Info</span>
@@ -18,16 +21,13 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarColor01">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <Link to = "/" className="nav-link" >Home</Link>
+                <Link to="/about" className="nav-link" >About</Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="https://github.com/blucky36">Github</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="https://www.linkedin.com/in/blake-bollman">LinkedIn</a>
-              </li>
-              <li className="nav-item">
-                <Link to="/about" className="nav-link" >About</Link>
               </li>
             </ul>
             <select className="dropMenu btn btn-secondary" onChange = {(e)=>{this.handleChange(e)}}>

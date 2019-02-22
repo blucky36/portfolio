@@ -14,7 +14,7 @@
   max-width: 20rem;
 }
 /* cards ^^^^^ */
-body{
+.body{
   background: url(https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -23,7 +23,26 @@ body{
   max-width: 100%;
   overflow-x: hidden;
   color: white;
-
+}
+#paralax{
+  height: 50vw;
+  background: url(/images/trippyGif.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+#paralax2{
+  height: 50vw;
+  background: url(https://media3.giphy.com/media/EPHI62lD3MJOw/giphy.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .noBorder{
   border:none;

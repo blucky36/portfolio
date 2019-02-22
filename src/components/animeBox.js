@@ -10,7 +10,7 @@ class AnimeBox extends Component{
     let barsFragment = document.createDocumentFragment()
     let dotsFragment = document.createDocumentFragment()
     let numberOfBars = 50
-    let duration = 1000
+    let duration = 250
 
     for (let i = 0; i < numberOfBars; i++) {
       let barEl = document.createElement("div")
@@ -25,7 +25,7 @@ class AnimeBox extends Component{
     dotsWrapperEl.appendChild(dotsFragment)
 
     const play = () => {
-      let oddOrEven = num % 2 === 0 ? ["-50px","50px"] : ["50px","-50px"]
+      let oddOrEven = num % 2 === 0 ? ["-40px","40px"] : ["40px","-40px"]
       let easings = []
       for (let ease in anime.penner) easings.push(ease)
       easings.push("steps("+anime.random(5, 100)+")")
@@ -40,7 +40,7 @@ class AnimeBox extends Component{
       })
       .add({
         targets: `.animebox${num} .bar`,
-        scaleY: anime.stagger([1, 15], {easing: ease, from: "center", direction: "reverse"}),
+        scaleY: anime.stagger([1, 10], {easing: ease, from: "center", direction: "reverse"}),
         delay: anime.stagger(7, {from: "center"})
       })
       .add({

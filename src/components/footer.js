@@ -1,5 +1,8 @@
 import React, {Component} from "react"
 import AnimeBox from "./animeBox.js"
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+AOS.init()
 
 class Footer extends Component {
 
@@ -8,11 +11,17 @@ class Footer extends Component {
       <>
         <footer className="row foot">
           <article className="col-sm-2"></article>
-          <article className="col-4">
+          <article className="col-4"
+            data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <h3>Contact Info:</h3>
           </article>
           <article className="col-4">
-          <table className="table table-dark">
+          <table className="table table-dark"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <thead>
               <tr>
                 <th scope="col">Phone #</th>

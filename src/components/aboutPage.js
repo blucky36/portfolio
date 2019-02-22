@@ -66,8 +66,8 @@ class AboutPage extends Component {
     ],
     jumboObj:{
       header:"About Me",
-      upper:"Check out my github! Link is up above in the Navigation Bar",
-      lower:"Galvanize grad who has strong passions for coding, and golf. Demonstrated a history of working with teams in an agile environment. Skilled in Javascript, HTML5, CSS, Communication, Time Management, and Teamwork."
+      upper:"Learn a bit about me and my hobbies",
+      lower:"I am a Galvanize grad who has strong passions for coding, and golf. Demonstrated a history of working with teams in an agile environment. I am skilled at working in Javascript, HTML5, CSS, and with Communication, Time Management, and Teamwork."
     }
   }
 
@@ -76,10 +76,10 @@ class AboutPage extends Component {
       <>
         <Jumbotron data={this.state.jumboObj}/>
         <main className="row one">
-          {this.state.cards.map((card,i)=><Card key = {i} cardData = {card}/>)}
+          {this.state.cards.map((card,i)=><Card key = {i} cardData = {card} size = {3}/>)}
         </main>
         <main className="row two">
-          {this.state.cards2.map((card,i)=><Card key = {i} cardData = {card}/>)}
+          {this.state.cards2.map((card,i)=><Card key = {i} cardData = {card} size = {8}/>)}
         </main>
       </>
     )

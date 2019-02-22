@@ -1,40 +1,102 @@
 import React, {Component} from "react"
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+AOS.init()
 
 class Landing extends Component {
 
   handleClick(){
     let divArray = document.getElementsByTagName("div")
     for(let i = 0; i < divArray.length; i++){
-      divArray[i].style.animation = "spin 50s linear infinite"
+      divArray[i].style.animation = "spin 20s linear infinite"
     }
-    setInterval(()=>{
+    let inter = setInterval(()=>{
+      // window.open("https://linkedin.com/in/blake-bollman")
       window.location.href = "/About"
-    },2000)
-    window.open("https://github.com/blucky36") && window.open("https://linkedin.com/in/blake-bollman")
+      clearInterval(inter)
+    },7000)
+    // window.open("https://github.com/blucky36")
   }
 
   render(){
     return (
-      <div className = "row">
-        <article className = "col-2"></article>
-        <article className = "col-8 text-center black">
-          <main className = "row">
-            <div className = "col-12">
-              <h1>
-                Welcome
+      <>
+        <div className = "row">
+          <article className = "col-2"></article>
+          <article className = "col-8 text-center black">
+            <main className = "row">
+              <div className = "col-12">
+                <h1 data-aos="zoom-in">
+                  Welcome
+                </h1>
+              </div>
+            </main>
+          </article>
+          <article className = "col-2"></article>
+        </div>
+        <div id = "paralax">
+          <div className = "row">
+            <div className = "col-12 text-center">
+              <h1 style={{height:100}}
+                data-aos="zoom-out-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                If you could do anything what would you do?
               </h1>
             </div>
-          </main>
-          <main className = "row">
-            <div className = "col-12">
-              <h1 className = "btn btn-dark" onClick={()=>{this.handleClick()}}>
-                Click Me
-              </h1>
+          </div>
+          <div className = "row">
+            <div className = "col-12 text-center">
+              <h2 style={{height:100}}
+                data-aos="zoom-out-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                My name is Blake Bollman
+              </h2>
             </div>
-          </main>
-        </article>
-        <article className = "col-2"></article>
-      </div>
+          </div>
+          <div className = "row">
+            <div className = "col-12 text-center">
+              <h3 style={{height:100}}
+                data-aos="zoom-out-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                I'm a full stack developer Living in Boulder Colorado
+              </h3>
+            </div>
+          </div>
+          <div className = "row">
+            <div className = "col-12 text-center">
+              <h4 style={{height:100}}
+                data-aos="zoom-out-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                And I absolutely love what I do
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className = "body text-center" style={{height:100}}>
+          <h1 data-aos="zoom-out-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+            Take a <span className = "black">look at some of</span> my work
+          </h1>
+        </div>
+        <div id = "paralax2">
+
+        </div>
+        <main className = "row">
+          <div className = "col-12 text-center">
+            <h1 className = "btn btn-dark" onClick={()=>{this.handleClick()}}
+              data-aos="zoom-out-down"
+              data-aos-easing="linear"
+              data-aos-duration="15">
+              Click Me For Insanity
+            </h1>
+          </div>
+        </main>
+      </>
     )
   }
 }
