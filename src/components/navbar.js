@@ -13,7 +13,7 @@ class Navbar extends Component {
   render(){
     return (
       <>
-        <nav className="navbar navbar-expand-md navbar-dark bg-dark bnav" data-aos="zoom-in">
+        <nav className="navbar navbar-expand-md navbar-dark bg-dark bnav">
           <Link to = "/" className="navbar-brand" >Blake Bollman</Link>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" onClick={()=>{this.props.toggleExpanded()}}>
             {this.props.expanded ? <span>Hide</span> : <span>More Info</span>}
@@ -50,7 +50,7 @@ class Navbar extends Component {
           </div>
         </nav>
         <main className = "row">
-          {["yeet","yeet","yeet","yeet"].map((e,i)=><AnimeBox key = {i} i = {i+1} size = {3}/>)}
+          {["yeet","yeet","yeet","yeet"].map((e,i)=><AnimeBox key = {i} i = {i+1} size = {3} tb={"top"}/>)}
         </main>
       </>
     )

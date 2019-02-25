@@ -32,6 +32,14 @@ class Landing extends Component {
         image:"https://emilybollman.surge.sh/Photos/photo12.jpg",
         description:"This is a resume I created for my sister to help her get her face out there as she graduates from Syracuse University with a degree in acting."
       },
+      {
+        header: "Choose your own story",
+        title:"React Native mobile application game",
+        text:"Coming Soon to an appstore near you",
+        href:"https://github.com/blucky36/react-native-choose-your-own-story",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-B_WeQ58-k8BdQQnLXOPtKHn3jgf5eVFK7DCh8cyhlI7j9u6s",
+        description:"I was inspired by Black Mirror's Bandersnatch to try programming a choose your own story adventure.  Currently I have one story completed and a functional backend to keep track of the players data based upon their alias name.  This is a work in progress and in the future I would love to make many more stories.",
+      }
     ]
   }
 
@@ -53,20 +61,20 @@ class Landing extends Component {
   render(){
     return (
       <>
-        <div className = "row">
-          <article className = "col-2"></article>
-          <article className = "col-8 text-center black">
-            <main className = "row">
-              <div className = "col-12">
-                <h1 data-aos="zoom-in" data-aos-duration="500">
-                  Welcome
-                </h1>
-              </div>
-            </main>
-          </article>
-          <article className = "col-2"></article>
-        </div>
-        <div id = "paralax">
+        <div id = "paralax2">
+          <div className = "row">
+            <article className = "col-2"></article>
+            <article className = "col-8 text-center">
+              <main className = "row">
+                <div className = "col-12">
+                  <h1 data-aos="zoom-in" data-aos-duration="500">
+                    Welcome
+                  </h1>
+                </div>
+              </main>
+            </article>
+            <article className = "col-2"></article>
+          </div>
           <div className = "row">
             <div className = "col-12 text-center">
               <h1
@@ -111,16 +119,14 @@ class Landing extends Component {
               </h4>
             </div>
           </div>
-        </div>
-        <div className = "body text-center" style={{height:"7vw"}}>
-          <h1 data-aos="zoom-out-up"
-            data-aos-easing="linear"
-            data-aos-duration="3000"
-          >
-            Take a <span className = "black">look at some of</span> my work
-          </h1>
-        </div>
-        <div id = "paralax2">
+          <div className = "text-center">
+            <h1 data-aos="zoom-out-up"
+              data-aos-easing="linear"
+              data-aos-duration="3000"
+            >
+              Take a look at some of my work
+            </h1>
+          </div>
           {this.state.projectArray.map((e,i)=><Project key = {i} i={i} project = {e}/>)}
         </div>
         <main className = "row">

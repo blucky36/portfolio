@@ -18,7 +18,7 @@ class App extends Component {
   }
 
   changeFirstLoad(){
-    this.setState({...this.state,firstLoad:false})
+    this.setState({...this.state,firstLoad:!this.state.firstLoad})
   }
 
   toggleExpanded(){

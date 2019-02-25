@@ -23,6 +23,7 @@ class Project extends Component {
             data-aos-duration="1500"
             data-aos-offset="200"
           >
+            <img className="card-img-top" src = {`${this.props.project.image}`}alt = ""/>
             <div className="card-header">{this.props.project.header}</div>
             <div className="card-body">
               <h4 className="card-title">{this.props.project.title}</h4>
@@ -36,7 +37,6 @@ class Project extends Component {
               <h4 className = "black text-center">Details</h4>
               <div className = "row">
                 <div className = "col-12">
-                  <img src = {`${this.props.project.image}`}alt = "" style={{width:"50%"}}/>
                 </div>
               </div>
               <div className = "row">

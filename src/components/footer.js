@@ -15,7 +15,8 @@ class Footer extends Component {
             <table className="table table-dark"
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000">
+              data-aos-duration="2000"
+              data-aos-anchor-placement = "bottom-bottom">
               <thead>
                 <tr>
                   <th scope="col">Contact</th>
@@ -31,7 +32,7 @@ class Footer extends Component {
           <article className="col-4"></article>
         </footer>
         <main className = "row">
-        {[0,1,2,3,4,5].map((e,i)=><AnimeBox key = {i} i = {i+5} size={2}/>)}
+        {[0,1,2,3,4,5].map((e,i)=><AnimeBox key = {i} i = {i+5} size={2} tb={"bottom"}/>)}
         </main>
       </>
     )

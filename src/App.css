@@ -110,8 +110,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: 200px;
+  height: 100px;
 }
 
 .animebox1 .wrapper {
@@ -135,9 +134,8 @@ p{
 .animebox1 .dot {
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #888888;
   border-radius: 50%;
-  /* opacity: .8; */
 }
 
 .animebox2 {
@@ -146,8 +144,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: 200px;
+  height: 100px;
 }
 
 .animebox2 .wrapper {
@@ -171,9 +168,8 @@ p{
 .animebox2 .dot {
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #888888;
   border-radius: 50%;
-  /* opacity: .2; */
 }
 
 .animebox3 {
@@ -182,8 +178,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: 200px;
+  height: 100px;
 }
 
 .animebox3 .wrapper {
@@ -207,9 +202,8 @@ p{
 .animebox3 .dot {
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #888888;
   border-radius: 50%;
-  /* opacity: .2; */
 }
 
 .animebox4 {
@@ -218,8 +212,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: 200px;
+  height: 100px;
 }
 
 .animebox4 .wrapper {
@@ -243,9 +236,8 @@ p{
 .animebox4 .dot {
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #888888;
   border-radius: 50%;
-  /* opacity: .2; */
 }
 
 .animebox5 {
@@ -254,8 +246,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: 200px;
+  height: 100px;
 }
 
 .animebox5 .wrapper {
@@ -279,9 +270,8 @@ p{
 .animebox5 .dot {
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #888888;
   border-radius: 50%;
-  /* opacity: .2; */
 }
 
 .animebox6 {
@@ -290,8 +280,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: 200px;
+  height: 100px;
 }
 
 .animebox6 .wrapper {
@@ -315,9 +304,8 @@ p{
 .animebox6 .dot {
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #888888;
   border-radius: 50%;
-  /* opacity: .2; */
 }
 
 .animebox7 {
@@ -326,8 +314,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: 200px;
+  height: 100px;
 }
 
 .animebox7 .wrapper {
@@ -351,9 +338,8 @@ p{
 .animebox7 .dot {
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #888888;
   border-radius: 50%;
-  /* opacity: .2; */
 }
 
 .animebox8 {
@@ -362,8 +348,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: 200px;
+  height: 100px;
 }
 
 .animebox8 .wrapper {
@@ -387,9 +372,8 @@ p{
 .animebox8 .dot {
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #888888;
   border-radius: 50%;
-  /* opacity: .2; */
 }
 
 .animebox9 {
@@ -398,8 +382,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: 200px;
+  height: 100px;
 }
 
 .animebox9 .wrapper {
@@ -423,9 +406,8 @@ p{
 .animebox9 .dot {
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #888888;
   border-radius: 50%;
-  /* opacity: .2; */
 }
 
 .animebox10 {
@@ -434,8 +416,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: 200px;
+  height: 100px;
 }
 
 .animebox10 .wrapper {
@@ -459,9 +440,8 @@ p{
 .animebox10 .dot {
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #888888;
   border-radius: 50%;
-  /* opacity: .2; */
 }
 
 .animebox11 {
@@ -470,8 +450,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: 200px;
+  height: 100px;
 }
 
 .animebox11 .wrapper {
@@ -495,9 +474,8 @@ p{
 .animebox11 .dot {
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #888888;
   border-radius: 50%;
-  /* opacity: .2; */
 }
 
 .animebox12 {
@@ -506,8 +484,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: 200px;
+  height: 100px;
 }
 
 .animebox12 .wrapper {
@@ -531,9 +508,8 @@ p{
 .animebox12 .dot {
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #888888;
   border-radius: 50%;
-  /* opacity: .2; */
 }
 
 .animebox13 {
@@ -542,8 +518,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: 200px;
+  height: 100px;
 }
 
 .animebox13 .wrapper {
@@ -567,9 +542,8 @@ p{
 .animebox13 .dot {
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #888888;
   border-radius: 50%;
-  /* opacity: .2; */
 }
 
 .animebox14 {
@@ -578,8 +552,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: 200px;
+  height: 100px;
 }
 
 .animebox14 .wrapper {
@@ -603,9 +576,8 @@ p{
 .animebox14 .dot {
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #888888;
   border-radius: 50%;
-  /* opacity: .2; */
 }
 
 .animebox15 {
@@ -614,8 +586,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: 200px;
+  height: 100px;
 }
 
 .animebox15 .wrapper {
@@ -639,9 +610,8 @@ p{
 .animebox15 .dot {
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #888888;
   border-radius: 50%;
-  /* opacity: .2; */
 }
 
 .animebox16 {
@@ -650,8 +620,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  height: 200px;
+  height: 100px;
 }
 
 .animebox16 .wrapper {
@@ -675,7 +644,6 @@ p{
 .animebox16 .dot {
   width: 10px;
   height: 10px;
-  background-color: #000000;
+  background-color: #888888;
   border-radius: 50%;
-  /* opacity: .2; */
 }

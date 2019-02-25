@@ -62,7 +62,7 @@ class AnimeBox extends Component{
 
   render(){
     return (
-      <div className = {`col-${this.props.size}`}>
+      <div className = {`col-${this.props.size}`} >
         <div className="animation-wrapper">
           <div className="feature-animation">
             <div className={`animebox${this.props.i}`}>
