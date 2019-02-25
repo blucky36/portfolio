@@ -46,6 +46,21 @@ class Navbar extends Component {
               <option className="opt" value = "https://emilybollman.surge.sh">
                 Emily Bollman's Online Resume
               </option>
+              <option className="opt" value= "https://g106-message-assessment-blake.surge.sh/">
+                Full Stack Message Fun
+              </option>
+              <option className = "opt" value="https://blake-react-inbox.herokuapp.com/">
+                Gmail Recreation
+              </option>
+              <option className = "opt" value="https://redditcloneblucky36.surge.sh">
+                Redux Reddit
+              </option>
+              <option value = "http://late-stamp.surge.sh/">
+                Calculator
+              </option>
+              <option className="opt" value = "http://scarce-note.surge.sh">
+                Pixel Art
+              </option>
             </select>
           </div>
         </nav>
