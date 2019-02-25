@@ -83,7 +83,7 @@ class AboutPage extends Component {
           {this.state.cards.map((card,i)=><Card key = {i} cardData = {card} size = {3}/>)}
         </main>
         <main className="row two">
-          {this.state.cards2.map((card,i)=><Card key = {i} cardData = {card} size = {8}/>)}
+          {this.state.cards2.map((card,i)=><Card key = {i} cardData = {card} size = {3}/>)}
         </main>
       </>
     )

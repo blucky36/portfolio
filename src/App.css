@@ -1,3 +1,24 @@
+h1{
+  font-size: 4vw;
+}
+h2{
+  font-size: 3.5vw;
+}
+h3{
+  font-size: 3vw;
+}
+h4{
+  font-size: 2.5vw;
+}
+h5{
+  font-size: 2vw;
+}
+h6{
+  font-size: 1.5vw;
+}
+p{
+  font-size: 2vw;
+}
 .one{
   display: flex;
   justify-content: center;
@@ -25,7 +46,7 @@
   color: white;
 }
 #paralax{
-  height: 50vw;
+  /* height: 25vw; */
   background: url(/images/trippyGif.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -35,7 +56,7 @@
   overflow-x: hidden;
 }
 #paralax2{
-  height: 50vw;
+  /* height: 200vw; */
   background: url(https://media3.giphy.com/media/EPHI62lD3MJOw/giphy.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -51,7 +72,7 @@
   background-color:#222222;
 }
 .black{
-  color:black;
+  color:#222222;
 }
 .bnav{
   border: none;
@@ -89,7 +110,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 910px;
+
   height: 200px;
 }
 
@@ -104,7 +125,7 @@
 }
 
 .animebox1 .bar {
-  width: 30px;
+  width:10px;
   height: 10px;
   background-image: linear-gradient(180deg, skyblue 0%, blue 52%, purple 100%);
   transform-origin: 50% 50%;
@@ -125,7 +146,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 910px;
+
   height: 200px;
 }
 
@@ -140,7 +161,7 @@
 }
 
 .animebox2 .bar {
-  width: 30px;
+  width:10px;
   height: 10px;
   background-image: linear-gradient(180deg, #373734 0%, #242423 52%, #0D0D0C 100%);
   transform-origin: 50% 50%;
@@ -161,7 +182,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 910px;
+
   height: 200px;
 }
 
@@ -176,7 +197,7 @@
 }
 
 .animebox3 .bar {
-  width: 30px;
+  width:10px;
   height: 10px;
   background-image: linear-gradient(180deg, #373734 0%, #242423 52%, #0D0D0C 100%);
   transform-origin: 50% 50%;
@@ -197,7 +218,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 910px;
+
   height: 200px;
 }
 
@@ -212,7 +233,7 @@
 }
 
 .animebox4 .bar {
-  width: 30px;
+  width:10px;
   height: 10px;
   background-image: linear-gradient(180deg, purple 0%, blue 52%, skyblue 100%);
   transform-origin: 50% 50%;
@@ -233,7 +254,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 910px;
+
   height: 200px;
 }
 
@@ -248,7 +269,7 @@
 }
 
 .animebox5 .bar {
-  width: 30px;
+  width:10px;
   height: 10px;
   background-image: linear-gradient(180deg, tomato 0%, green 52%, blue 100%);
   transform-origin: 50% 50%;
@@ -269,7 +290,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 910px;
+
   height: 200px;
 }
 
@@ -284,7 +305,7 @@
 }
 
 .animebox6 .bar {
-  width: 30px;
+  width:10px;
   height: 10px;
   background-image: linear-gradient(180deg, #373734 0%, #FFFFFF 52%, #0D0D0C 100%);
   transform-origin: 50% 50%;
@@ -305,7 +326,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 910px;
+
   height: 200px;
 }
 
@@ -320,7 +341,7 @@
 }
 
 .animebox7 .bar {
-  width: 30px;
+  width:10px;
   height: 10px;
   background-image: linear-gradient(180deg, #FFFFFF 0%, #222222 52%, #000000 100%);
   transform-origin: 50% 50%;
@@ -341,7 +362,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 910px;
+
   height: 200px;
 }
 
@@ -356,7 +377,7 @@
 }
 
 .animebox8 .bar {
-  width: 30px;
+  width:10px;
   height: 10px;
   background-image: linear-gradient(180deg, #000000 0%, #222222 52%, #FFFFFF 100%);
   transform-origin: 50% 50%;
@@ -377,7 +398,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 910px;
+
   height: 200px;
 }
 
@@ -392,7 +413,7 @@
 }
 
 .animebox9 .bar {
-  width: 30px;
+  width:10px;
   height: 10px;
   background-image: linear-gradient(180deg, #373734 0%, #FFFFFF 52%, #0D0D0C 100%);
   transform-origin: 50% 50%;
@@ -413,7 +434,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 910px;
+
   height: 200px;
 }
 
@@ -428,7 +449,7 @@
 }
 
 .animebox10 .bar {
-  width: 30px;
+  width:10px;
   height: 10px;
   background-image: linear-gradient(180deg, blue 0%, green 52%, tomato 100%);
   transform-origin: 50% 50%;
@@ -449,7 +470,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 910px;
+
   height: 200px;
 }
 
@@ -464,7 +485,7 @@
 }
 
 .animebox11 .bar {
-  width: 30px;
+  width:10px;
   height: 10px;
   background-image: linear-gradient(180deg, #373734 0%, #242423 52%, #0D0D0C 100%);
   transform-origin: 50% 50%;
@@ -485,7 +506,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 910px;
+
   height: 200px;
 }
 
@@ -500,7 +521,7 @@
 }
 
 .animebox12 .bar {
-  width: 30px;
+  width:10px;
   height: 10px;
   background-image: linear-gradient(180deg, #373734 0%, #242423 52%, #0D0D0C 100%);
   transform-origin: 50% 50%;
@@ -521,7 +542,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 910px;
+
   height: 200px;
 }
 
@@ -536,7 +557,7 @@
 }
 
 .animebox13 .bar {
-  width: 30px;
+  width:10px;
   height: 10px;
   background-image: linear-gradient(180deg, #373734 0%, #242423 52%, #0D0D0C 100%);
   transform-origin: 50% 50%;
@@ -557,7 +578,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 910px;
+
   height: 200px;
 }
 
@@ -572,7 +593,7 @@
 }
 
 .animebox14 .bar {
-  width: 30px;
+  width:10px;
   height: 10px;
   background-image: linear-gradient(180deg, #373734 0%, #242423 52%, #0D0D0C 100%);
   transform-origin: 50% 50%;
@@ -593,7 +614,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 910px;
+
   height: 200px;
 }
 
@@ -608,7 +629,7 @@
 }
 
 .animebox15 .bar {
-  width: 30px;
+  width:10px;
   height: 10px;
   background-image: linear-gradient(180deg, #373734 0%, #242423 52%, #0D0D0C 100%);
   transform-origin: 50% 50%;
@@ -629,7 +650,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 910px;
+
   height: 200px;
 }
 
@@ -644,7 +665,7 @@
 }
 
 .animebox16 .bar {
-  width: 30px;
+  width:10px;
   height: 10px;
   background-image: linear-gradient(180deg, #373734 0%, #242423 52%, #0D0D0C 100%);
   transform-origin: 50% 50%;

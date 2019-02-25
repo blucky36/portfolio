@@ -15,8 +15,8 @@ class Navbar extends Component {
       <>
         <nav className="navbar navbar-expand-md navbar-dark bg-dark bnav" data-aos="zoom-in">
           <Link to = "/" className="navbar-brand" >Blake Bollman</Link>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-            <span>More Info</span>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" onClick={()=>{this.props.toggleExpanded()}}>
+            {this.props.expanded ? <span>Hide</span> : <span>More Info</span>}
           </button>
           <div className="collapse navbar-collapse" id="navbarColor01">
             <ul className="navbar-nav mr-auto">

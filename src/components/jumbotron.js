@@ -23,8 +23,8 @@ class Jumbotron extends Component {
         </button>
         <Modal open={this.state.open} onClose={this.toggleModal} center>
           <h2 className = "black text-center">Pics of Me</h2>
-          <img src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/40092252_10214456805826749_7385714109678878720_n.jpg?_nc_cat=108&_nc_ht=scontent-dfw5-2.xx&oh=48442fb1aee110b29ec3c96177f23895&oe=5CF334B2" style = {{width:300, height:375}}/>
-          <img src="/images/blake.png" style = {{width:300, height:375}}/>
+          <img src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/40092252_10214456805826749_7385714109678878720_n.jpg?_nc_cat=108&_nc_ht=scontent-dfw5-2.xx&oh=48442fb1aee110b29ec3c96177f23895&oe=5CF334B2" alt = ""style = {{width:200, height:275}}/>
+          <img src="/images/blake.png" alt = "" style = {{width:200, height:275}}/>
         </Modal>
         <p className="lead">{this.props.data.upper}</p>
         <hr className="my-4"/>
