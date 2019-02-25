@@ -36,7 +36,7 @@ class Project extends Component {
               <h4 className = "black text-center">Details</h4>
               <div className = "row">
                 <div className = "col-12">
-                  <img src = {`${this.props.project.image}`}alt = "" style={{width:100}}/>
+                  <img src = {`${this.props.project.image}`}alt = "" style={{width:"50%"}}/>
                 </div>
               </div>
               <div className = "row">

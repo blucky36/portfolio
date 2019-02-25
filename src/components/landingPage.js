@@ -14,7 +14,7 @@ class Landing extends Component {
         text: "Back up your playlists now!",
         href:"https://spotify-rewind.surge.sh",
         image:"https://spotify-rewind.surge.sh/images/spotify_rewind_transparent.svg",
-        description:"hi"
+        description:"Worked to create a version control tool for spotify.  This works by backing up your playlists from spotify, and if you have made changes to that playlist it backs up different versions of your playlists while retaining the previous versions.  This tool is great for keeping your recommended daily playlists in an outsorced database."
       },
       {
         header: "Bus To Show",
@@ -22,7 +22,7 @@ class Landing extends Component {
         text: "Reserve your bus ride today",
         href:"https://bustoshow.herokuapp.com",
         image:"http://bustoshow.surge.sh/static/media/bts-logo-orange.fdb3ecc6.png",
-        description:"name"
+        description:"This is a website I developed with the owner of the Bus To Show company.  We worked to replace a $70,000 a year service he was using for reservations on a square space website"
       },
       {
         header: "Actress Resume",
@@ -30,7 +30,7 @@ class Landing extends Component {
         text: "to keep up on her current events",
         href:"https://emilybollman.surge.sh",
         image:"https://emilybollman.surge.sh/Photos/photo12.jpg",
-        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        description:"This is a resume I created for my sister to help her get her face out there as she graduates from Syracuse University with a degree in acting."
       },
     ]
   }
